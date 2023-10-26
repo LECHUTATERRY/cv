@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            padding: 10px;
+            margin: 15px;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: rgb(17, 3, 68);
+        }
+        .container {
+            width: 500px;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            left: 50%;
+            overflow: hiden;
+            
+            border-radius: 8px;
+            box-shadow: 10px 35px 30px rebeccapurple;
+        }
+        .wrapper {
+            width: 85vmin;
+            display: flex;
+            animation: slide 16s infinite;
+        }
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+            25% {
+                transform: translateX(0);
+            }
+            30% {
+                transform: translateX(-100%);
+            }
+            50% {
+                transform: translateX(-100%);
+            }
+            55% {
+                transform: translateX(-200%);
+            }
+            75% {
+                transform: translateX(-200%);
+            }
+            80% {
+                transform: translateX(-300%);
+            }
+            100% {
+                transform: tramslate(-300%);
+            }
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="wrapper">
+        <img src="MSU.jpg">
+        <img src="MSU1.jpg">
+        <img src="MSU2.jpg">
+        <img src="MSU3.jpg">
+    </div>
+   </div> 
+</body>
+</html>
